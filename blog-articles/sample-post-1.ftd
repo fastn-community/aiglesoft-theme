@@ -1,15 +1,18 @@
--- import: gsalunke.github.io/aiglesoft/blog-meta/meta
+-- import: fastn-community.github.io/aiglesoft-theme/blog-meta/meta
 
 
 -- ws.article: Bringing the world together through live experiences.
 post: $meta.meta3
 
-I’m an expert on how technology hijacks our psychological vulnerabilities.
-That’s why I spent the last three years as a Design Ethicist at Google caring
-about how to design things in a way that defends a billion people’s minds from
-getting hijacked. When using technology, we often focus optimistically on all
-the things it does for us. But I want to show you where it might do the
-opposite.
+Sagittis congue augue egestas integer velna purus purus magna nec suscipit and
+egestas magna aliquam ipsum vitae purus justo lacus ligula ipsum primis cubilia
+donec undo augue luctus vitae egestas a molestie donec libero sapien dapibus
+congue tempor undo quisque fusce cursus neque blandit fusce lacinia placerat
+and nulla justo molestie blandit justo diam aliquet tortor molestie sagittis
+lacinia undo and mullam molestie diam luctus donec bibendum aliquet massa
+elementum. Libero quisque lacus and ligula massa lorem fusce cursus fusce nulla
+vitae massa placerat and mollis, sapien gravida aliquet ipsum ultrices aliquet
+lorem diam purus undo vitae aliquam auris dapibus libero fusce blandit.
 
 Where does technology exploit our minds’ weaknesses?
 
@@ -23,14 +26,16 @@ src: $assets.files.assets.card1.jpg
 alignment: center
 width: fill-container
 
--- ws.h3: Bringing the world together through live experiences.
+-- ws.h3: Volutpat egestas and magna suscipit Volutpat egestas
 
 -- ws.markdown:
 
-I’m an expert on how technology hijacks our psychological vulnerabilities.
-That’s why I spent the last three years as a Design Ethicist at Google caring
-about how to design things in a way that defends a billion people’s minds from
-getting hijacked.
+Congue augue sagittis egestas integer velna purus purus magna nec suscipit and
+egestas magna aliquam ipsum vitae purus justo lacus ligula ipsum primis cubilia
+donec undo augue luctus vitae egestas a molestie donec libero sapien dapibus
+congue tempor undo quisque fusce cursus neque blandit fusce lorem nulla an
+aliquam lacinia justo molestie blandit justo diam an aliquet tortor sagittis
+lacinia molestie diam egestas
 
 When using technology, we often focus optimistically on all the things it does
 for us. But I want to show you where it might do the opposite.
@@ -69,7 +74,7 @@ src: $assets.files.assets.card5.jpg
 alignment: center
 width: fill-container
 
--- ws.h3: Bringing the world together through live experiences.
+-- ws.h3: I’m an expert on how technology hijacks our psychological
 
 -- ws.markdown:
 
@@ -110,7 +115,7 @@ src: $assets.files.assets.card4.jpg
 alignment: center
 width: fill-container
 
--- ws.h3: Bringing the world together through live experiences.
+-- ws.h3: Lorem egestas a dolor fusce posuere
 
 -- ws.markdown:
 
