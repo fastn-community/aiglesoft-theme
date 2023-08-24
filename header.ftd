@@ -39,7 +39,7 @@ z-index: 99999
 -- ftd.column:
 if: { header.sidebar-open }
 width: fill-container
-background.solid: $inherited.colors.background.overlay
+background.solid: $inherited.colors.background.step-1
 height.fixed.calc: 100vh
 z-index: 10
 
