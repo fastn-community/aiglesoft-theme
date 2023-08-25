@@ -2966,7 +2966,7 @@ height.fixed.px: 16
 -- ftd.image:
 src: $contact-form-desktop.email
 width: auto
-link: mailto: hello@aiglesoft.com
+link: mailto: hello@acme.com
 height.fixed.px: 14
 
 -- end: ftd.row
@@ -3118,7 +3118,7 @@ width: auto
 -- ftd.image:
 src: $contact-form-mobile.email
 width: auto
-link: mailto:hello@aiglesoft.com
+link: mailto:hello@acme.com
 
 -- end: ftd.row
 
