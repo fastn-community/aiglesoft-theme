@@ -3063,7 +3063,7 @@ width: fill-container
 padding-horizontal.px: 18
 padding-top.px: 18
 padding-bottom.px: 32
-background.solid: $inherited.colors.background.step-2
+background.solid: $inherited.colors.background.step-1
 z-index: 10
 ;;shadow: $shadow
 spacing: space-between
@@ -3118,7 +3118,7 @@ width: auto
 -- ftd.image:
 src: $contact-form-mobile.email
 width: auto
-link: mailto:hello@fifthtry.com
+link: mailto:hello@aiglesoft.com
 
 -- end: ftd.row
 
