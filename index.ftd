@@ -2913,7 +2913,7 @@ width.fixed.px: 400
 height.fixed.px: 420
 padding-horizontal.px: 18
 padding-vertical.px: 18
-background.solid: $inherited.colors.background.step-2
+background.solid: $inherited.colors.background.step-1
 shadow: $inherited.colors.shadow
 spacing: space-between
 border-radius.px: 8
