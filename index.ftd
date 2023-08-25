@@ -2141,6 +2141,7 @@ link: $client-lists.link
 -- component testimonials-card:
 optional caption title:
 common.testimonial list testimonials:
+common.testimonial-nav list nav:
 string id: testimonials
 
 -- ftd.column:
@@ -2320,6 +2321,31 @@ color: $inherited.colors.text
 -- end: testimonials-card-details
 
 
+
+
+
+
+
+
+
+
+-- component nav-lists:
+integer index: 1
+boolean $active: false
+
+-- ftd.row:
+width.fixed.px: 13
+height.fixed.px: 13
+border-radius.px: 10
+border-width.px: 1
+$on-click$: $ftd.toggle($a = $nav-lists.active, v = false)
+$on-click$: $ftd.set-integer($a = $common.current-slide, v = $nav-lists.index)
+background.solid if { nav-lists.active }: $inherited.colors.cta-primary.base
+background.solid: $inherited.colors.info.base
+
+-- end: ftd.row
+
+-- end: nav-lists
 
 
 
@@ -5005,6 +5031,65 @@ white-space: nowrap
 -- end: ftd.column
 
 -- end: search-card
+
+
+
+
+
+
+
+
+
+
+
+-- component testimonials:
+optional caption title:
+optional body body:
+children child:
+
+-- ftd.column:
+width: fill-container
+background.solid: $inherited.colors.background.base
+align-content: center
+
+-- ftd.row:
+width: fill-container
+max-width.fixed.px: $common.max-width
+padding-vertical.px: 30
+align-content: center
+wrap: true
+
+-- ftd.column:
+width.fixed.percent: 50
+color: $inherited.colors.text
+
+-- ftd.text: $testimonials.title
+if: { testimonials.title != NULL }
+role: $inherited.types.heading-medium
+style: bold
+
+-- ftd.text:
+if: { testimonials.body != NULL }
+role: $inherited.types.heading-large
+max-width.fixed.percent: 50
+margin-top.px: 40
+style: bold
+
+$testimonials.body
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.percent: 50
+children: $testimonials.child
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: testimonials
 
 
 
