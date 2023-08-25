@@ -562,12 +562,6 @@ align-content: center
 width: fill-container
 spacing.fixed.px: 16
 
--- ftd.image:
-src: $header-mobile.menu-icon
-width.fixed.px: 24
-align-self: center
-$on-click$: $ftd.toggle($a = $header-mobile.sidebar-open) 
-
 -- ftd.column:
 if: { header-mobile.site-logo != NULL } 
 height.fixed.px: 38
@@ -591,6 +585,12 @@ site-name: $header-mobile.site-name
 
 -- end: ftd.row
 
+-- ftd.image:
+src: $header-mobile.menu-icon
+width.fixed.px: 24
+align-self: center
+$on-click$: $ftd.toggle($a = $header-mobile.sidebar-open) 
+
 -- end: ftd.row
 
 -- ftd.row:
@@ -598,6 +598,7 @@ width: fill-container
 background.solid: $inherited.colors.background.step-1
 
 -- ftd.row:
+if: { !ftd.is_empty($header-mobile.toc) }
 width: fill-container
 
 -- ftd.row:
