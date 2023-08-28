@@ -3243,6 +3243,7 @@ common.tags-list list topics:
 
 -- ftd.column:
 width: fill-container
+align-content: center
 
 -- ftd.column:
 width: fill-container
@@ -4895,7 +4896,7 @@ color: $inherited.colors.text
 height.fixed.px: 160
 multiline: true
 
--- button: $contact-us-form.primary-cta
+-- button-solid: $contact-us-form.primary-cta
 cta-link: $contact-us-form.primary-cta-link
 
 -- end: ftd.column
