@@ -3252,6 +3252,7 @@ spacing.fixed.px: 8
 align-content: center
 
 -- ftd.text: $posts.title
+if: { posts.title != NULL }
 role: $inherited.types.heading-medium
 color: $inherited.colors.text-strong
 text-align: center
