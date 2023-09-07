@@ -60,7 +60,7 @@ client-list: $common.list-of-clients
 -- component pricing:
 optional caption title:
 optional body body:
-ftd.ui list pricing-cards:
+children pricing-cards:
 
 -- ftd.column:
 width: fill-container
@@ -98,7 +98,7 @@ $pricing.body
 -- component pricing-desktop:
 optional caption title:
 optional body body:
-ftd.ui list pricing-cards:
+children pricing-cards:
 
 -- ftd.column:
 width: fill-container
@@ -147,7 +147,7 @@ max-width.fixed.px: 1120
 -- component pricing-mobile:
 optional caption title:
 optional body body:
-ftd.ui list pricing-cards:
+children pricing-cards:
 
 -- ftd.column:
 width: fill-container
@@ -194,10 +194,12 @@ boolean active:
 integer price:
 string currency:
 string subscription:
-common.feature-pricing list feature-list:
+feature list feature-list:
 string cta-text:
 string cta-link:
-body body:
+optional string body-title:
+optional body body:
+optional string tag:
 boolean $cta-hover: false
 
 -- ftd.column:
