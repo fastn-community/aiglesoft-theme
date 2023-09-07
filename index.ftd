@@ -1228,6 +1228,7 @@ classes if { cta-right-hug.mouse-in }: animate-left
 -- component features-card:
 optional caption title:
 optional body body:
+optional string tag:
 common.feature list features:
 string id: features-card
 
